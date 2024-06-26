@@ -1,0 +1,21 @@
+
+POST {{address}}/techs
+Content-Type: application/json
+Authorization: {{sueToken}}
+
+{
+  "firstName": "Sue",
+  "lastName": "Gonzalez",
+  "email": "sue@aol.com",
+  "phone": "867-5309"
+}
+
+
+### 
+
+GET {{address}}/techs/6d2957c4-5c1f-40fb-acc7-b54942a4686b
+
+
+### 
+
+GET {{address}}/techs
